@@ -1,0 +1,29 @@
+{
+  "name": "skiradar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkiRadar — Интеллектуальный агрегатор цен, наличия ростовок и сборки горнолыжного снаряжения (РФ / КЗ / Мир)",
+  "type": "module",
+  "scripts": {
+    "dev:api": "bun run server/index.ts",
+    "dev:web": "vite --host",
+    "dev": "bun run server/dev.ts",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/bun": "latest",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0"
+  }
+}
